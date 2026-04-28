@@ -1,16 +1,104 @@
-# React + Vite
+#  Todo App — Because Your Brain Has Too Many Tabs Open
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, minimal, no-nonsense task manager built with React.
+It does exactly what you expect — and nothing stupid.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Features
 
-## React Compiler
+*  Add tasks (obviously)
+*  Edit tasks (double-click like a pro)
+*  Delete tasks (feels good, doesn’t it?)
+*  Mark tasks as completed
+*  Filter: All / Active / Completed
+*  Clear all completed tasks in one click
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+##  Why This Exists
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Because:
+
+* Sticky notes get lost
+* Notes apps get bloated
+* And your brain? Already overloaded
+
+This app is the middle ground — simple, fast, and doesn’t annoy you.
+
+---
+
+##  Tech Stack
+
+*  React (functional components + hooks)
+*  Pure CSS (no UI libraries, no shortcuts)
+*  Vite (fast dev environment)
+
+---
+
+##  Preview
+
+> Looks clean. Works fast. Doesn’t crash.
+> What more do you want?
+
+*(Add screenshot here if you want recruiters to actually care)*
+
+---
+
+##  How It Works
+
+* Tasks are stored in local state
+* Each task has:
+
+  * `id`
+  * `text`
+  * `done` status
+* Filtering is handled dynamically
+* UI updates instantly (no reloads, no nonsense)
+
+---
+
+##  Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+Open: http://localhost:5173
+
+---
+
+##  Limitations (Yeah, it’s not perfect)
+
+*  No backend (refresh = tasks gone)
+*  No authentication
+*  No database
+
+---
+
+##  Future Upgrades (If I feel like it)
+
+*  LocalStorage persistence
+*  Backend integration (Spring Boot)
+*  Authentication (JWT)
+*  Deployment
+
+---
+
+##  Author
+
+**Megalraja A**
+Full Stack Java Developer (in progress, not pretending)
+
+---
+
+##  Final Thought
+
+This isn’t just a todo app.
+It’s proof that I can build clean UI, structure logic properly,
+and not create a messy pile of code.
+
+---
+
+> If you’re a recruiter: yes, I can build bigger things than this 
